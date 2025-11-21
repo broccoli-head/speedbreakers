@@ -97,3 +97,9 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# other
+Assets/Sprites/2D pixel asteroids/
+Assets/Settings/TextMesh Pro/Examples & Extras/
+Assets/Settings/TextMesh Pro/Documentation/

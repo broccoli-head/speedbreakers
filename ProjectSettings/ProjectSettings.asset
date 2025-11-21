@@ -678,12 +678,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 8d0f0609-3d26-4611-9296-784bb4fb642f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Speed Brakers
+  projectName: Speed Breakers
   organizationId: hackaton2025
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
