@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AsteroidSpawner : MonoBehaviour
 {
-    public GameObject prefab;
+    public GameObject[] prefabs;
     public float spawnInterval;
     public Vector2 xSpawnRange;
     public float spawnY;
@@ -25,6 +25,7 @@ public class AsteroidSpawner : MonoBehaviour
 
     void SpawnObject()
     {
+        int prefabIndex = Random.Range(0, prefabs.Length);
         float x = Random.Range(xSpawnRange.x, xSpawnRange.y);
 
         if (lastNegative)
@@ -35,12 +36,10 @@ public class AsteroidSpawner : MonoBehaviour
         else lastNegative = true;
      
         GameObject obj = Instantiate(
-            prefab,
+            prefabs[prefabIndex],
             new Vector3(x, spawnY, 0),
             Quaternion.identity
         );
-
-        obj.GetOrAddComponent<SpriteRenderer>().sortingOrder = 1;
 
         MoveAsteroid mover = obj.AddComponent<MoveAsteroid>();
         mover.speed = objectSpeed;

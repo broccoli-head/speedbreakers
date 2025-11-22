@@ -3,8 +3,8 @@ guid: 24d08ffe74583394497a1d03f1669c99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3297934150280225675
-    second: sample-spaceship2_0
+      213: -3433065286612024052
+    second: spaceship2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sample-spaceship2_0
+      name: spaceship2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 346
-        height: 459
+        x: 17
+        y: 45
+        width: 478
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57cdaef0d526b32d0800000000000000
-      internalID: -3297934150280225675
+      spriteID: c0504cc9f4d4b50d0800000000000000
+      internalID: -3433065286612024052
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sample-spaceship2_0: -3297934150280225675
+      spaceship2_0: -3433065286612024052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
